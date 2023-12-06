@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+
+}
+
+#logo{
+    margin-left: 50px; 
+    margin-top: 50px;
+}
+
+#titulo-menu-superior{
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#texto-menu-superior{
+    margin-left:150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+#menu-superior{
+    background-image: url(imagens/backgorund-menu-superior.svg);
+    color: white;
+}
+
+#menu-informacional{
+    background-color: #eaece5;
+    display: grid; /*é a malha do sistema, divide a página em blocos de contúdo pra eu organizar meu texto como quiser*/
+    grid-auto-flow: column; /*indicando que a siposição da pa´gina será em grid e essas grids vão se organizar em colunas*/
+    columns: auto; /*deixando as colunas se organizarem soznhas automaticamente*/
+}
+
+.icone{
+    margin: 50px 0px 50px 100px; /*em cima, à direita, embaixo, à esquerda*/
+    padding: 25px;
+}
+.texto-informativo{
+    display:flex;
+    align-items: center;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color:#247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left:30px;
+}
