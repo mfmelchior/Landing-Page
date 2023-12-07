@@ -53,9 +53,19 @@
         <div id="carrossel">
             <h1 id="titulo-carrossel"> Mais de 500 alunos já iniciaram seus estudos </h1>
             <div id="div-cards"> <!--divisão dos cards-->
-                <img class="card" src="CARDS/Leonardo.svg" alt="Depoimento do Leonardo">
-                <img class="card" src="CARDS/Samantha.svg" alt="Depoimento da Samantha">
+                <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="./icones/seta-esquerda.svg" alt="Seta para esquerda">
+                <img id="Leonardo" class="card" src="CARDS/Leonardo.svg" alt="Depoimento do Leonardo">
+                <img id="Samantha" class="card" src="CARDS/Samantha.svg" alt="Depoimento da Samantha">
+                <img id="Bruna" class="card" src="CARDS/Bruna.svg" alt="Depoimento da Bruna">
+                <img id="seta-direita" onclick="RolarParaDireita()" class="seta" src="icones/seta-direita.svg" alt="Seta para direita">
             </div>
+        </div>
+
+
+        <!--FORMULÁRIO-->
+        <div id="Formulario">
+            <h1 id="titulo-formulario" >Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+
         </div>
     <script src="index.js"></script>
 </body>

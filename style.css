@@ -75,3 +75,31 @@
 .card{
     margin-left:30px;
 }
+
+#seta-esquerda{
+    display: none;
+}
+
+#Bruna{
+    display:none;
+}
+
+.seta{
+    margin-top:55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px); /*quando eu passar o mouse por cima o meu botão vai flutuar e vai movimentar menos 7 px no eixo y, ou seja, na vertical*/
+    transition-duration: 0.5s; /*quando tempo dura essa transição*/
+}
+
+#Formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
